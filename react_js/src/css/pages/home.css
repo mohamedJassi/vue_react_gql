@@ -1,0 +1,21 @@
+.banner {
+  height: 100vh;
+  background-image: url("../../assets/banner.jpg");
+  background-position: right;
+  background-size: cover;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+}
+.banner .content {
+  width: 40%;
+}
+
+.banner .actions button {
+  margin-right: 1rem;
+}
+.banner p {
+  text-align: justify;
+  font-size: 1rem;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}

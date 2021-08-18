@@ -1,0 +1,69 @@
+.game-form {
+  display: flex;
+}
+.game-form .title {
+  width: 100%;
+}
+.game-form .img {
+  width: 50%;
+  max-height: 100%;
+  background-image: url("../../assets/addgame.jpg");
+  background-position: left;
+  background-size: cover;
+}
+.game-form .wrap {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #24252a2f, #24252a);
+}
+.game-form form {
+  width: 50%;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.game-form .w-100 {
+  width: 100%;
+}
+
+.game-form .w-40 {
+  width: 40%;
+}
+
+.game-form .bloc {
+  margin: 1rem;
+}
+.game-form .bloc label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.5rem !important;
+  display: flex;
+}
+.game-form .bloc input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.game-form .bloc input:focus {
+  outline-color: #0088a9;
+}
+.game-form .bloc.select select {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.game-form .bloc.textarea textarea {
+  width: 100%;
+  height: 6rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.game-form form button {
+  margin: 1rem;
+}

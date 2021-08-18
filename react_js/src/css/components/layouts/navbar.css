@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 10%;
+  background-color: #24252a;
+
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.navbar h2 {
+  color: #19d2ff;
+  text-shadow: 0 0 1rem black;
+}
+.navbar h2 span {
+  color: #edf0f1;
+}
+.navbar li,
+a,
+.navbar button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.navbar .navlinks {
+  list-style: none;
+}
+.navbar .navlinks li {
+  display: inline-block;
+  padding: 0px 1.5rem;
+}
+.navbar .navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+.navbar .navlinks li a.active {
+  color: #19d2ff;
+}
+.navbar .navlinks li a:hover {
+  color: #0088a9;
+}
+.navbar .actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .actions .left {
+  margin-right: 2rem;
+  height: 3rem;
+}
+
+.navbar .actions .left .login {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .actions .profil {
+  width: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 3rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.navbar .actions .profil:hover {
+  height: 9rem;
+  background-color: #24252a;
+  box-shadow: 0 0 0.5rem black;
+}
+
+.navbar .actions .profil .element {
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .actions .profil .element:hover {
+  box-shadow: inset 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  background-color: #16171a;
+}

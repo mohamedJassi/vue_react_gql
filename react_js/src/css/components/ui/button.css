@@ -1,0 +1,14 @@
+.the-button {
+  padding: 0.8rem 2rem;
+  color: #edf0f1;
+  background-color: rgba(0, 135, 169, 1);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 1.1rem;
+  height: 3rem;
+}
+.the-button:hover {
+  background-color: rgba(0, 135, 169, 0.8);
+}

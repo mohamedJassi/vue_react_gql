@@ -1,0 +1,44 @@
+.the-section {
+  height: 25rem;
+  width: 20rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.the-section:hover .wrap {
+  opacity: 1;
+}
+
+.the-section .wrap {
+  background-image: linear-gradient(#24252a4d, #24252a);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.the-section .action {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.the-section .action a,
+.the-section .action > button {
+  width: 100%;
+  margin: 1rem;
+}
+.the-section .action a button {
+  width: 100%;
+}
+.the-section .info {
+  color: whitesmoke;
+  text-shadow: 0 0 0.5rem #24252a;
+}

@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  padding: 1rem 10%;
+  background-color: #24252a;
+}
+
+.container > .content {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
+  border-radius: 1rem;
+  overflow: hidden;
+}

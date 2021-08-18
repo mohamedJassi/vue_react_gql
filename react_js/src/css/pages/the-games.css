@@ -1,0 +1,9 @@
+.the-games {
+  padding: 1rem;
+}
+
+.the-games .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

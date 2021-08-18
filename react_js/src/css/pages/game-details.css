@@ -1,0 +1,62 @@
+.game-details .game-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-details .container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 10%;
+}
+.game-details .container > .content {
+  width: 55rem;
+}
+
+.game-details .poster {
+  width: 50%;
+  min-height: 40rem;
+  background-position: left;
+  background-size: cover;
+}
+.game-details .game-info .wrap {
+  min-height: 40rem;
+  width: 100%;
+  background-image: linear-gradient(to right, #24252a2f, #24252a);
+}
+.game-details .info {
+  width: 50%;
+  color: whitesmoke;
+  margin: 2rem 1rem;
+}
+
+.game-details .bloc {
+  display: flex;
+  align-items: center;
+}
+
+.game-details .bloc h3 {
+  margin-right: 1rem;
+}
+.game-details .bloc h2 {
+  text-transform: capitalize;
+}
+.game-details button {
+  margin-right: 2rem;
+  width: 10rem;
+}
+.game-details .buttons {
+  margin-top: 3rem;
+}
+
+.game-details .bloc .title,
+.game-details .desc .title {
+  color: rgba(0, 135, 169, 1);
+  text-shadow: 0 0 1rem #1010112f;
+}
+
+.game-details .desc p {
+  padding: 1rem;
+  box-shadow: inset 0 0 1rem rgba(0, 0, 0, 0.3);
+  max-height: 6rem;
+  overflow-y: scroll;
+}
